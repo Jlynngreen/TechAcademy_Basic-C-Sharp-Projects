@@ -18,9 +18,10 @@ class Program
         int pageNum = Convert.ToInt32(pageNumber);
         
         Console.WriteLine("Do you need help with anything?");
-        bool isStudying = false;
-        Console.WriteLine(isStudying);
-       
+        string help = Console.ReadLine();
+        bool trueOrFalse = Convert.ToBoolean(help);
+        Console.Write(trueOrFalse.ToString());
+        Console.ReadLine();
      
 
         Console.WriteLine("Were there any positive experiences you'd like to share?");

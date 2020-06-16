@@ -5,3 +5,7 @@ C:\Users\black\Documents\GitHub\Tech_Academy-C-Sharp-Coding-Projects\Drill 72 Da
 C:\Users\black\Documents\GitHub\Tech_Academy-C-Sharp-Coding-Projects\Drill 72 Daily Report\Drill 72 Daily Report\bin\Debug\Drill 72 Daily Report.pdb
 C:\Users\black\Documents\GitHub\Tech_Academy-C-Sharp-Coding-Projects\Drill 72 Daily Report\Drill 72 Daily Report\obj\Debug\Drill 72 Daily Report.exe
 C:\Users\black\Documents\GitHub\Tech_Academy-C-Sharp-Coding-Projects\Drill 72 Daily Report\Drill 72 Daily Report\obj\Debug\Drill 72 Daily Report.pdb
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 72 Daily Report\Drill 72 Daily Report\obj\Debug\Drill 72 Daily Report.csprojAssemblyReference.cache
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 72 Daily Report\Drill 72 Daily Report\obj\Debug\Drill 72 Daily Report.csproj.CoreCompileInputs.cache
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 72 Daily Report\Drill 72 Daily Report\obj\Debug\Drill 72 Daily Report.exe
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 72 Daily Report\Drill 72 Daily Report\obj\Debug\Drill 72 Daily Report.pdb
