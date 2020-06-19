@@ -40,10 +40,10 @@ namespace Drill_124
                         break;
                 }
             }
-          
+
             Console.WriteLine("Guess a Number?");
             int Number = Convert.ToInt32(Console.ReadLine());
-            bool isGuessed = true;
+            bool isGuessed = false;
 
             
             do
@@ -67,12 +67,12 @@ namespace Drill_124
                         break;
                     case 33:
                         Console.WriteLine("You guessed 33. You guessed Correct.");
-                        Console.WriteLine("Guess a Number?");
-                        Number = Convert.ToInt32(Console.ReadLine());
-                        isGuessed = true;
+                        Console.WriteLine("Guess a Number?"); 
+                        isGuessed = false;
                         break;
                      default:
-                       Console.WriteLine("Guess a numner?");
+                       Console.WriteLine("Guess a number?");
+                       Number = Convert.ToInt32(Console.ReadLine());
                        break;
                 }
             }
