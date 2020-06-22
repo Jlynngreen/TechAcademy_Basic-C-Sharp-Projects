@@ -53,9 +53,8 @@ namespace Drill_132
             intList.Add("Pink");
             Console.WriteLine("select a number between 0 through 3.");
             int List = Convert.ToInt32(Console.ReadLine());
-
+            Console.WriteLine(intList[List]);
             Console.ReadLine();
-
         }
     }
 }
