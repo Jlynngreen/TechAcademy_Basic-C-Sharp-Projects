@@ -11,11 +11,12 @@ namespace Drill_127
         static void Main(string[] args)
         {
             String name = "jess";
-            string quote = "They said, \"Hi\", jess. \n Hi its finally the weekend. \n \t yay can't wait.";
+            string quote = "They said, \"Hi\", jess." + "\n Hi its finally the weekend." + "\n \t yay can't wait.";
 
 
-            string author = "Robin Williams";
-            Console.WriteLine(author);
+            string author = "robin williams";
+           
+            Console.WriteLine(author.ToUpper());
 
 
             StringBuilder sb = new StringBuilder();
