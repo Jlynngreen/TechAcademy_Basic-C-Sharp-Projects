@@ -1,0 +1,7 @@
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 128 Arrays and Lists\Drill 128 Arrays and Lists\bin\Debug\Drill 128 Arrays and Lists.exe.config
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 128 Arrays and Lists\Drill 128 Arrays and Lists\bin\Debug\Drill 128 Arrays and Lists.exe
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 128 Arrays and Lists\Drill 128 Arrays and Lists\bin\Debug\Drill 128 Arrays and Lists.pdb
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 128 Arrays and Lists\Drill 128 Arrays and Lists\obj\Debug\Drill 128 Arrays and Lists.csprojAssemblyReference.cache
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 128 Arrays and Lists\Drill 128 Arrays and Lists\obj\Debug\Drill 128 Arrays and Lists.csproj.CoreCompileInputs.cache
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 128 Arrays and Lists\Drill 128 Arrays and Lists\obj\Debug\Drill 128 Arrays and Lists.exe
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 128 Arrays and Lists\Drill 128 Arrays and Lists\obj\Debug\Drill 128 Arrays and Lists.pdb
