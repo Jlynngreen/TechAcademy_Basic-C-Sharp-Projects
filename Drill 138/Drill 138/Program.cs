@@ -32,14 +32,14 @@ namespace Drill_138
             // 2. Create an infinite loop.
 
 
-            int i = 1;
+            //int i = 1;
 
-            while (i <= 10)
-            {
+            //while (i <= 10)
+            //{
 
-                Console.WriteLine("variable i is equal to : " + i);
+            //    Console.WriteLine("variable i is equal to : " + i);
 
-            }
+            //}
 
 
             // 3. Fix the infinite loop so it will execute.
@@ -147,12 +147,15 @@ namespace Drill_138
                     Console.WriteLine("this car is located at index:" + j);
 
                 }
-                else
-
+                
+                if (!cars.Contains(customer))
+                {
+                    Console.WriteLine(customer + " is not found in the list.");
+                    break;
+                }
                     // 10. Add code to that above loop that tells a user if
                     // they put in text that isn’t in the List.
-
-                    Console.WriteLine("that car is not on the list");
+;
 
             }
 
@@ -162,32 +165,29 @@ namespace Drill_138
             // or not it has already appeared in the list.
 
             List<string> fruits = new List<string>();
-            Console.WriteLine("Pick a fruit");
-            string student = Console.ReadLine();
             fruits.Add("Apple");
             fruits.Add("Watermelon");
             fruits.Add("Apple");
             fruits.Add("Banana");
 
-            for (int F = 0; F < fruits.Count; F++)
+            List<string> fruits2 = new List<string>();
 
+            for (int F = 0; F < fruits.Count; F++)
             {
-                if (student == fruits[F])
+                if (fruits2.Contains(fruits[F]))
                 {
+                    Console.WriteLine(fruits[F] + "has already been mentioned.");
 
-                    Console.WriteLine("this fruit is located at index:" + F);
                 }
-            }
-            for (int F = 0; F < fruits.Count; F++)
+                else
+                {
+                    Console.WriteLine(fruits[F]);
+                    fruits2.Add(fruits[F]);
+                }
+                
 
-            {
-                Console.WriteLine(fruits[F]);
-
             }
 
-            {
-                Console.WriteLine(" Apple already is on the list");
-            }
             Console.ReadLine();
         }
     }

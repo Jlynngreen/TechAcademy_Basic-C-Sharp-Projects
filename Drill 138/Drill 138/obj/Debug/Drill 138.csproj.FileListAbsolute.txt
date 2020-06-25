@@ -1,7 +1,6 @@
 C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 138\Drill 138\bin\Debug\Drill 138.exe.config
 C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 138\Drill 138\bin\Debug\Drill 138.exe
 C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 138\Drill 138\bin\Debug\Drill 138.pdb
-C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 138\Drill 138\obj\Debug\Drill 138.csprojAssemblyReference.cache
 C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 138\Drill 138\obj\Debug\Drill 138.csproj.CoreCompileInputs.cache
 C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 138\Drill 138\obj\Debug\Drill 138.exe
 C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 138\Drill 138\obj\Debug\Drill 138.pdb
