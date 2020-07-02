@@ -17,6 +17,15 @@ namespace Drill_170
 
             IQuittable mark = new Employee();
             mark.Quit();
+
+            employee1.Id = 1;
+            Employee holden = new Employee();
+            holden.Id = 2;
+            holden.firstName = "holden";
+            holden.lastName = "wiese";
+
+            Console.WriteLine(holden == employee1);
+
             Console.ReadLine();
         }
     }
