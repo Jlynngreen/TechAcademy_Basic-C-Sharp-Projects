@@ -14,6 +14,10 @@ namespace Drill_170
             employee1.firstName = "Sample";
             employee1.lastName = "Student";
             employee1.SayName();
+
+            IQuittable mark = new Employee();
+            mark.Quit();
+            Console.ReadLine();
         }
     }
 }

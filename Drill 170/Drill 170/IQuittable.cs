@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Drill_170
 {
-    class Employee : Person, IQuittable
+    interface IQuittable
     {
-        public void Quit()
-        {
-            Console.WriteLine("I quit");
-        }
+        void Quit();
     }
 }
