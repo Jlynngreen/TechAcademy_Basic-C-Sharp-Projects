@@ -1,0 +1,7 @@
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 181\Drill 181\obj\Debug\Drill 181.csprojAssemblyReference.cache
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 181\Drill 181\obj\Debug\Drill 181.csproj.CoreCompileInputs.cache
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 181\Drill 181\bin\Debug\Drill 181.exe.config
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 181\Drill 181\bin\Debug\Drill 181.exe
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 181\Drill 181\bin\Debug\Drill 181.pdb
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 181\Drill 181\obj\Debug\Drill 181.exe
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 181\Drill 181\obj\Debug\Drill 181.pdb
