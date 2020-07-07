@@ -1,0 +1,2 @@
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 194\Drill 194\obj\Debug\Drill 194.csprojAssemblyReference.cache
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 194\Drill 194\obj\Debug\Drill 194.csproj.CoreCompileInputs.cache
