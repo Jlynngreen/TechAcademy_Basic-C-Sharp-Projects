@@ -12,7 +12,7 @@ namespace TwentyOne
         {
 
 
-            Cards = new List<card>();
+            Cards = new List<Card>();
             List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" };
             List<string> Faces = new List<string>()
             {
@@ -26,7 +26,7 @@ namespace TwentyOne
             {
                 foreach (string suit in Suits)
                 {
-                    card card = new card();
+                    Card card = new Card();
                     card.Suit = suit;
                     card.Face = face;
                     Cards.Add(card);
@@ -34,6 +34,6 @@ namespace TwentyOne
             }
 
         }
-        public List<card> Cards { get; set; }
+        public List<Card> Cards { get; set; }
     }
 }

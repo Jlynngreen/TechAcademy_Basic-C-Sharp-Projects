@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    public class TwentyClassDealer : Dealer
+    public class TwentyOneDealer : Dealer
     {   
-        public List<card> Hand { get; set; }
+        public List<Card> Hand { get; set; }
         public bool stay { get; set; }
         public bool isBusted { get; set; }
 

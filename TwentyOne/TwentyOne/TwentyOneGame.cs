@@ -6,12 +6,12 @@ using System.Text;
 using System.Threading.Tasks;
 using TwentyOne;
 
-namespace twentyone
+namespace TwentyOne
 {
-    public class twentyonegames : Game, Iwalkaway
+    public class TwentyOneGame : Game, IWalkAway
     {
         public TwentyOneDealer Dealer { get; set; }
-        public override void play()
+        public override void Play()
         {
             Dealer = new TwentyOneDealer();
             foreach (Player player in Players)
@@ -20,7 +20,7 @@ namespace twentyone
                 player.Stay = false;
             }
             Dealer.Hand = new List<Card>();
-            Dealer.Stay = false;
+            Dealer.stay = false;
             Dealer.Deck = new Deck();
             Console.WriteLine("Place your bet!");
 
@@ -52,7 +52,7 @@ namespace twentyone
                         }
                     }
                 }
-                Console.WriteLine("Dealer: ");
+                Console.WriteLine("Dealer:");
                 Dealer.Deal(Dealer.Hand);
                 if (i == 1)
                 {
@@ -72,7 +72,7 @@ namespace twentyone
                 while (!player.Stay)
                 {
                     Console.WriteLine("Your cards are: ");
-                    foreach (card card in player.Hand)
+                    foreach (Card card in Player.Hand)
                     {
                         Console.Write("{0} ", card.ToString());
                     }
@@ -106,23 +106,23 @@ namespace twentyone
                 }
             }
             Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand);
-            Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
-            while (!Dealer.Stay && !Dealer.isBusted)
+            Dealer.stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
+            while (!Dealer.stay && !Dealer.isBusted)
             {
                 Console.WriteLine("Dealer is hitting....");
                 Dealer.Deal(Dealer.Hand);
                 Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand);
-                Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
+                Dealer.stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
 
             }
-            if (Dealer.Stay)
+            if (Dealer.stay)
             {
                 Console.WriteLine("Dealer is staying.");
             }
             if (Dealer.isBusted)
             {
                 Console.WriteLine("Dealer Busted!");
-                foreach (KeyValuePair<player, int> entry in Bets)
+                foreach (KeyValuePair<Player, int> entry in Bets)
                 {
                     Console.WriteLine("{0} won {1}!", entry.Key.Name, entry.Value);
                     Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2);
@@ -131,7 +131,7 @@ namespace twentyone
                 }
                 return;
             }
-            foreach (player player in Players)
+            foreach (Player player in Players)
             {
                 bool? playerwon = TwentyOneRules.CompareHands(player.Hand, Dealer.Hand);
                 if (playerwon == null)
@@ -161,7 +161,7 @@ namespace twentyone
                 }
                 else
                 {
-                    player.isActivelyplaying = false;
+                    player.isActivelyPlaying = false;
                     
                 }
             }
@@ -176,11 +176,11 @@ namespace twentyone
         public override void ListPlayers()
         {
             Console.WriteLine("21 Player:");
-            base.ListPlayer();
+            base.ListPlayers();
         }
-        public void WalkAway(player player)
+        public void WalkAway(Player player)
         {
-            throw new notimplementedexception();
+            throw new NotImplementedException();
         }
 
     }

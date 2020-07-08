@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace twentyone
+namespace TwentyOne
 {
-    interface iwalkaway
+    interface IWalkAway
     {
-        void walkaway(player player);
+        void WalkAway(player player);
     }
 }

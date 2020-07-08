@@ -25,12 +25,12 @@ namespace TwentyOne
             [Face.King] = 10,
             [Face.Ace] = 1
         };
-        private static int[] GetAllPossibleHandValues(List<card> Hand)
+        private static int[] GetAllPossibleHandValues(List<Card> Hand)
         {
             int aceCount = Hand.Count(x => x.Face == Face.Ace);
             int[] result = new int[aceCount + 1];
-            int value = Hand.Sum(x => _cardValues[x.Face]);
-            result[0] = value;
+            int value = Hand.Sum(x => _cardValues(x.Face));
+            result[0] = value;  
             if (result.Length == 1)
             {
                 return result;
@@ -43,22 +43,22 @@ namespace TwentyOne
             return result;
         }
 
-        public static bool CheckForBlackJack(List<card> Hand)
+        public static bool CheckForBlackJack(List<Card> Hand)
         {
-            int possibleValues = GetAllPossibleHandValues(Hand);
+            int[] possibleValues = GetAllPossibleHandValues(Hand);
             int value = possibleValues.Max();
             if (value == 21) return true;
             else return false;
         }
 
-        public static bool IsBusted(List<card> Hand)
+        public static bool IsBusted(List<Card> Hand)
         {
             int value = GetAllPossibleHandValues(Hand).Min();
             if (value > 21) return true;
             else return false;
         }
 
-        public static bool ShouldDealerStay(List<card> Hand)
+        public static bool ShouldDealerStay(List<Card> Hand)
         {
             int[] possibleHandValues = GetAllPossibleHandValues(Hand);
             foreach (int value in possibleHandValues)
@@ -71,7 +71,7 @@ namespace TwentyOne
             return false;
         }
 
-        public static bool CompareHands(List<card> PlayerHand, List<card> DealerHand)
+        public static bool CompareHands(List<Card> PlayerHand, List<Card> DealerHand)
         {
             int[] playerResults = GetAllPossibleHandValues(PlayerHand);
             int[] dealerResults = GetAllPossibleHandValues(DealerHand);

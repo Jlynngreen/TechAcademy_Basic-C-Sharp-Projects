@@ -6,7 +6,7 @@ using System.Runtime.Remoting.Messaging;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
-using twentyone;
+using TwentyOne;
 
 namespace TwentyOne
 {
@@ -22,8 +22,8 @@ namespace TwentyOne
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
-                player player = new player(playerName, bank);
-                Game game = new twentyonegames();
+                Player player = new Player(playerName, bank);
+                Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;
                 while (player.isActivelyPlaying && player.Balance > 0)
@@ -33,7 +33,7 @@ namespace TwentyOne
                 game -= player;
                 Console.WriteLine("Thank you for playing!");
             }
-            Console.WriteLine("Feel free to look arounf the casino. Bye for now.");
+            Console.WriteLine("Feel free to look around the casino. Bye for now.");
             Console.Read();
         }
 
