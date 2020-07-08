@@ -8,6 +8,6 @@ namespace TwentyOne
 {
     interface IWalkAway
     {
-        void WalkAway(player player);
+        void WalkAway(Player player);
     }
 }
