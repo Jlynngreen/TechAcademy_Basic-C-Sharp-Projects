@@ -1,0 +1,2 @@
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Casino\Casino\obj\Debug\Casino.csprojAssemblyReference.cache
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Casino\Casino\obj\Debug\Casino.csproj.CoreCompileInputs.cache
