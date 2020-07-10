@@ -1,0 +1,7 @@
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 213\Drill 213\obj\Debug\Drill 213.csprojAssemblyReference.cache
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 213\Drill 213\obj\Debug\Drill 213.csproj.CoreCompileInputs.cache
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 213\Drill 213\bin\Debug\Drill 213.exe.config
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 213\Drill 213\bin\Debug\Drill 213.exe
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 213\Drill 213\bin\Debug\Drill 213.pdb
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 213\Drill 213\obj\Debug\Drill 213.exe
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 213\Drill 213\obj\Debug\Drill 213.pdb
