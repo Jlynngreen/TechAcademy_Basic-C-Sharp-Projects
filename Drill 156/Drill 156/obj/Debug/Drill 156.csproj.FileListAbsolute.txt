@@ -1,0 +1,7 @@
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 156\Drill 156\bin\Debug\Drill 156.exe.config
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 156\Drill 156\bin\Debug\Drill 156.exe
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 156\Drill 156\bin\Debug\Drill 156.pdb
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 156\Drill 156\obj\Debug\Drill 156.csprojAssemblyReference.cache
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 156\Drill 156\obj\Debug\Drill 156.csproj.CoreCompileInputs.cache
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 156\Drill 156\obj\Debug\Drill 156.exe
+C:\Users\black\Documents\GitHub\TechAcademy-Basic-C-Sharp-Projects\Drill 156\Drill 156\obj\Debug\Drill 156.pdb
